@@ -1,0 +1,73 @@
+{
+  "sweep_results": {
+    "0.0": {
+      "accuracy": 0.688,
+      "hallucination_rate": 0.31200000000000006,
+      "total": 1000,
+      "n_correct": 688
+    },
+    "0.1": {
+      "accuracy": 0.689,
+      "hallucination_rate": 0.31100000000000005,
+      "total": 1000,
+      "n_correct": 689
+    },
+    "0.2": {
+      "accuracy": 0.695,
+      "hallucination_rate": 0.30500000000000005,
+      "total": 1000,
+      "n_correct": 695
+    },
+    "0.3": {
+      "accuracy": 0.691,
+      "hallucination_rate": 0.30900000000000005,
+      "total": 1000,
+      "n_correct": 691
+    },
+    "0.5": {
+      "accuracy": 0.693,
+      "hallucination_rate": 0.30700000000000005,
+      "total": 1000,
+      "n_correct": 693
+    },
+    "0.7": {
+      "accuracy": 0.701,
+      "hallucination_rate": 0.29900000000000004,
+      "total": 1000,
+      "n_correct": 701
+    },
+    "1.0": {
+      "accuracy": 0.697,
+      "hallucination_rate": 0.30300000000000005,
+      "total": 1000,
+      "n_correct": 697
+    },
+    "1.5": {
+      "accuracy": 0.703,
+      "hallucination_rate": 0.29700000000000004,
+      "total": 1000,
+      "n_correct": 703
+    },
+    "2.0": {
+      "accuracy": 0.704,
+      "hallucination_rate": 0.29600000000000004,
+      "total": 1000,
+      "n_correct": 704
+    },
+    "2.5": {
+      "accuracy": 0.705,
+      "hallucination_rate": 0.29500000000000004,
+      "total": 1000,
+      "n_correct": 705
+    },
+    "3.0": {
+      "accuracy": 0.706,
+      "hallucination_rate": 0.29400000000000004,
+      "total": 1000,
+      "n_correct": 706
+    }
+  },
+  "best_alpha": 3.0,
+  "baseline_hallucination_rate": 0.30300000000000005,
+  "best_hallucination_rate": 0.29400000000000004
+}

@@ -1,0 +1,74 @@
+{
+  "models": {
+    "base": {
+      "compliance_rates": {
+        "falseqa": 1.0,
+        "faitheval": 1.0,
+        "sycophancy": 0.0425531914893617
+      },
+      "overcompliance_score": 0.6808510638297872
+    },
+    "baseline_dpo": {
+      "compliance_rates": {
+        "falseqa": 1.0,
+        "faitheval": 1.0,
+        "sycophancy": 0.145985401459854
+      },
+      "overcompliance_score": 0.7153284671532846
+    },
+    "logic_dpo": {
+      "compliance_rates": {
+        "falseqa": 1.0,
+        "faitheval": 1.0,
+        "sycophancy": 0.06993006993006994
+      },
+      "overcompliance_score": 0.68997668997669
+    },
+    "baseline_dpo_hn": {
+      "compliance_rates": {
+        "falseqa": 1.0,
+        "faitheval": 1.0,
+        "sycophancy": 0.13432835820895522
+      },
+      "overcompliance_score": 0.7114427860696518,
+      "hn_delta": {
+        "delta": -0.0038856810836327416,
+        "improved": true
+      }
+    },
+    "logic_dpo_hn": {
+      "compliance_rates": {
+        "falseqa": 1.0,
+        "faitheval": 1.0,
+        "sycophancy": 0.0851063829787234
+      },
+      "overcompliance_score": 0.6950354609929078,
+      "hn_delta": {
+        "delta": 0.005058771016217767,
+        "improved": false
+      }
+    }
+  },
+  "h_neurons_v1_v2_comparison": {
+    "baseline": {
+      "comparison_available": true,
+      "v1_neuron_count": 0,
+      "v2_neuron_count": 0,
+      "shared_count": 0,
+      "shared_ratio": 0.0,
+      "shared_neurons": [],
+      "v1_only_count": 0,
+      "v2_only_count": 0
+    },
+    "logic": {
+      "comparison_available": true,
+      "v1_neuron_count": 0,
+      "v2_neuron_count": 0,
+      "shared_count": 0,
+      "shared_ratio": 0.0,
+      "shared_neurons": [],
+      "v1_only_count": 0,
+      "v2_only_count": 0
+    }
+  }
+}

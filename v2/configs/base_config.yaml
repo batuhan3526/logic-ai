@@ -1,0 +1,20 @@
+model:
+  name: "meta-llama/Llama-3.2-3B-Instruct"
+  torch_dtype: "bfloat16"
+  attn_implementation: "sdpa"
+
+hardware:
+  num_gpus: 2
+  gradient_checkpointing: true
+  bf16: true
+
+paths:
+  base_dir: "/home/whiteowl/last_shot/v2"
+  v1_dir: "/home/whiteowl/last_shot"
+  dapt_model: "/home/whiteowl/last_shot/output/dapt/merged_model"
+  data_dir: "/home/whiteowl/last_shot/v2/data"
+  output_dir: "/home/whiteowl/last_shot/v2/output"
+  benchmark_dir: "/home/whiteowl/last_shot/v2/benchmarks"
+
+resume:
+  enabled: true

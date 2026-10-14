@@ -1,0 +1,209 @@
+{
+  "neuron_indices": [
+    {
+      "layer": 4,
+      "neuron": 1751,
+      "weight": 11.97027603665828
+    },
+    {
+      "layer": 1,
+      "neuron": 5002,
+      "weight": 9.43272970860899
+    },
+    {
+      "layer": 0,
+      "neuron": 5607,
+      "weight": 8.522839928695012
+    },
+    {
+      "layer": 17,
+      "neuron": 7956,
+      "weight": 5.25875187780771
+    },
+    {
+      "layer": 23,
+      "neuron": 2669,
+      "weight": 5.1738215958814555
+    },
+    {
+      "layer": 27,
+      "neuron": 2353,
+      "weight": 3.925843131698751
+    },
+    {
+      "layer": 4,
+      "neuron": 5309,
+      "weight": 3.4602872839126566
+    },
+    {
+      "layer": 8,
+      "neuron": 3359,
+      "weight": 2.9620767376704853
+    },
+    {
+      "layer": 16,
+      "neuron": 3553,
+      "weight": 2.0075823455408934
+    },
+    {
+      "layer": 3,
+      "neuron": 3967,
+      "weight": 1.887969435760728
+    },
+    {
+      "layer": 1,
+      "neuron": 4730,
+      "weight": 1.4929306005190763
+    },
+    {
+      "layer": 18,
+      "neuron": 3682,
+      "weight": 0.9873502406839749
+    },
+    {
+      "layer": 15,
+      "neuron": 6518,
+      "weight": 0.9338200163799032
+    },
+    {
+      "layer": 13,
+      "neuron": 3297,
+      "weight": 0.791256787908144
+    },
+    {
+      "layer": 4,
+      "neuron": 2289,
+      "weight": 0.7377446859372092
+    },
+    {
+      "layer": 0,
+      "neuron": 8004,
+      "weight": 0.63709304802021
+    },
+    {
+      "layer": 23,
+      "neuron": 6569,
+      "weight": 0.5992060517821477
+    },
+    {
+      "layer": 5,
+      "neuron": 3387,
+      "weight": 0.5688754694241978
+    },
+    {
+      "layer": 0,
+      "neuron": 7593,
+      "weight": 0.5176484854842829
+    },
+    {
+      "layer": 11,
+      "neuron": 4290,
+      "weight": 0.18678544785537166
+    },
+    {
+      "layer": 26,
+      "neuron": 2305,
+      "weight": 0.18420252994262398
+    },
+    {
+      "layer": 25,
+      "neuron": 3206,
+      "weight": 0.177658651257736
+    },
+    {
+      "layer": 15,
+      "neuron": 1672,
+      "weight": 0.16056443674716958
+    },
+    {
+      "layer": 3,
+      "neuron": 4802,
+      "weight": 0.15702326366551192
+    },
+    {
+      "layer": 16,
+      "neuron": 900,
+      "weight": 0.14174469058879813
+    },
+    {
+      "layer": 4,
+      "neuron": 6827,
+      "weight": 0.12821073370509498
+    }
+  ],
+  "alpha": 2.5,
+  "model_path": "output/baseline_dpo/merged_model",
+  "num_neurons": 26,
+  "selection_meta": {
+    "C": 0.5,
+    "cv_accuracy": 0.95837503583809,
+    "alpha_sweep_results": {
+      "0.0": {
+        "accuracy": 0.675,
+        "hallucination_rate": 0.32499999999999996,
+        "total": 1000,
+        "n_correct": 675
+      },
+      "0.1": {
+        "accuracy": 0.675,
+        "hallucination_rate": 0.32499999999999996,
+        "total": 1000,
+        "n_correct": 675
+      },
+      "0.2": {
+        "accuracy": 0.676,
+        "hallucination_rate": 0.32399999999999995,
+        "total": 1000,
+        "n_correct": 676
+      },
+      "0.3": {
+        "accuracy": 0.684,
+        "hallucination_rate": 0.31599999999999995,
+        "total": 1000,
+        "n_correct": 684
+      },
+      "0.5": {
+        "accuracy": 0.684,
+        "hallucination_rate": 0.31599999999999995,
+        "total": 1000,
+        "n_correct": 684
+      },
+      "0.7": {
+        "accuracy": 0.682,
+        "hallucination_rate": 0.31799999999999995,
+        "total": 1000,
+        "n_correct": 682
+      },
+      "1.0": {
+        "accuracy": 0.688,
+        "hallucination_rate": 0.31200000000000006,
+        "total": 1000,
+        "n_correct": 688
+      },
+      "1.5": {
+        "accuracy": 0.688,
+        "hallucination_rate": 0.31200000000000006,
+        "total": 1000,
+        "n_correct": 688
+      },
+      "2.0": {
+        "accuracy": 0.688,
+        "hallucination_rate": 0.31200000000000006,
+        "total": 1000,
+        "n_correct": 688
+      },
+      "2.5": {
+        "accuracy": 0.693,
+        "hallucination_rate": 0.30700000000000005,
+        "total": 1000,
+        "n_correct": 693
+      },
+      "3.0": {
+        "accuracy": 0.688,
+        "hallucination_rate": 0.31200000000000006,
+        "total": 1000,
+        "n_correct": 688
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "model_path": "meta-llama/Llama-3.2-3B-Instruct",
+  "h_neurons_path": null,
+  "timestamp": "2026-03-21T14:49:56.466715",
+  "benchmarks_run": [
+    "falseqa",
+    "faitheval",
+    "sycophancy"
+  ],
+  "truthfulqa": {},
+  "halueval": {},
+  "dmind": {},
+  "falseqa": {
+    "total": 0,
+    "corrections": 0,
+    "correction_rate": 0.0,
+    "compliance_rate": 1.0
+  },
+  "faitheval": {
+    "total": 0,
+    "faithful": 0,
+    "faithfulness_rate": 0.0,
+    "faithfulness_rate_pct": 0.0
+  },
+  "sycophancy": {
+    "total": 175,
+    "initially_correct": 141,
+    "initially_correct_pct": 80.57142857142857,
+    "flips": 6,
+    "stood_ground": 135,
+    "flip_rate": 0.0425531914893617,
+    "flip_rate_pct": 4.25531914893617,
+    "stand_rate": 0.9574468085106383,
+    "stand_rate_pct": 95.74468085106383
+  }
+}

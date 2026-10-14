@@ -1,0 +1,401 @@
+{
+  "logic_da_v5": {
+    "dmind": {
+      "objective": {
+        "Blockchain_Fundamentals": {
+          "correct": 115,
+          "total": 341,
+          "accuracy": 0.33724340175953077
+        },
+        "Security": {
+          "correct": 170,
+          "total": 372,
+          "accuracy": 0.45698924731182794
+        },
+        "DAO": {
+          "correct": 122,
+          "total": 372,
+          "accuracy": 0.3279569892473118
+        },
+        "SmartContract": {
+          "correct": 106,
+          "total": 340,
+          "accuracy": 0.31176470588235294
+        },
+        "Defi": {
+          "correct": 130,
+          "total": 340,
+          "accuracy": 0.38235294117647056
+        },
+        "MEME": {
+          "correct": 75,
+          "total": 349,
+          "accuracy": 0.2148997134670487
+        },
+        "Infra": {
+          "correct": 154,
+          "total": 333,
+          "accuracy": 0.4624624624624625
+        },
+        "Tokenomist": {
+          "correct": 107,
+          "total": 355,
+          "accuracy": 0.30140845070422534
+        },
+        "NFT": {
+          "correct": 150,
+          "total": 352,
+          "accuracy": 0.42613636363636365
+        }
+      },
+      "subjective": {
+        "Blockchain_Fundamentals": {
+          "score": 378.99999999999994,
+          "max_score": 484,
+          "accuracy": 0.7830578512396693
+        },
+        "DAO": {
+          "score": 423.7,
+          "max_score": 514,
+          "accuracy": 0.8243190661478599
+        },
+        "Defi": {
+          "score": 457.2,
+          "max_score": 519,
+          "accuracy": 0.8809248554913295
+        },
+        "Infra": {
+          "score": 405.1,
+          "max_score": 500,
+          "accuracy": 0.8102
+        },
+        "MEME": {
+          "score": 400.09999999999997,
+          "max_score": 412,
+          "accuracy": 0.9711165048543688
+        },
+        "NFT": {
+          "score": 374.6,
+          "max_score": 412,
+          "accuracy": 0.9092233009708739
+        },
+        "Tokenomist": {
+          "score": 403.1,
+          "max_score": 410,
+          "accuracy": 0.9831707317073172
+        },
+        "Security": {
+          "score": 399.7,
+          "max_score": 450,
+          "accuracy": 0.8882222222222222
+        },
+        "SmartContract": {
+          "score": 98.0,
+          "max_score": 516,
+          "accuracy": 0.18992248062015504
+        }
+      },
+      "obj_accuracy": 0.3579581483830057,
+      "subj_accuracy": 0.7921508181171448
+    },
+    "truthfulqa": {
+      "total": 817,
+      "truthful": 285,
+      "truthful_pct": 34.883720930232556,
+      "informative": 817,
+      "informative_pct": 100.0
+    },
+    "halueval": {
+      "subsets": {
+        "qa": {
+          "h_correct": 2053,
+          "r_correct": 3636,
+          "samples": 10000,
+          "accuracy": 28.444999999999997
+        },
+        "dialogue": {
+          "h_correct": 2211,
+          "r_correct": 6628,
+          "samples": 10000,
+          "accuracy": 44.195
+        },
+        "summarization": {
+          "h_correct": 6224,
+          "r_correct": 905,
+          "samples": 10000,
+          "accuracy": 35.644999999999996
+        }
+      },
+      "overall_correct": 21657,
+      "overall_total": 60000,
+      "overall_accuracy": 36.095
+    },
+    "elapsed": 9658.502165555954
+  },
+  "logic_sft_v5": {
+    "dmind": {
+      "objective": {
+        "Blockchain_Fundamentals": {
+          "correct": 116,
+          "total": 341,
+          "accuracy": 0.34017595307917886
+        },
+        "Security": {
+          "correct": 162,
+          "total": 372,
+          "accuracy": 0.43548387096774194
+        },
+        "DAO": {
+          "correct": 87,
+          "total": 372,
+          "accuracy": 0.23387096774193547
+        },
+        "SmartContract": {
+          "correct": 90,
+          "total": 340,
+          "accuracy": 0.2647058823529412
+        },
+        "Defi": {
+          "correct": 135,
+          "total": 340,
+          "accuracy": 0.39705882352941174
+        },
+        "MEME": {
+          "correct": 56,
+          "total": 349,
+          "accuracy": 0.16045845272206305
+        },
+        "Infra": {
+          "correct": 122,
+          "total": 333,
+          "accuracy": 0.3663663663663664
+        },
+        "Tokenomist": {
+          "correct": 81,
+          "total": 355,
+          "accuracy": 0.22816901408450704
+        },
+        "NFT": {
+          "correct": 135,
+          "total": 352,
+          "accuracy": 0.3835227272727273
+        }
+      },
+      "subjective": {
+        "Blockchain_Fundamentals": {
+          "score": 341.4,
+          "max_score": 484,
+          "accuracy": 0.7053719008264462
+        },
+        "DAO": {
+          "score": 398.40000000000003,
+          "max_score": 514,
+          "accuracy": 0.7750972762645915
+        },
+        "Defi": {
+          "score": 433.40000000000003,
+          "max_score": 519,
+          "accuracy": 0.8350674373795762
+        },
+        "Infra": {
+          "score": 380.09999999999997,
+          "max_score": 500,
+          "accuracy": 0.7602
+        },
+        "MEME": {
+          "score": 366.7,
+          "max_score": 412,
+          "accuracy": 0.8900485436893204
+        },
+        "NFT": {
+          "score": 352.5,
+          "max_score": 412,
+          "accuracy": 0.8555825242718447
+        },
+        "Tokenomist": {
+          "score": 391.99999999999994,
+          "max_score": 410,
+          "accuracy": 0.9560975609756096
+        },
+        "Security": {
+          "score": 353.2,
+          "max_score": 450,
+          "accuracy": 0.7848888888888889
+        },
+        "SmartContract": {
+          "score": 89.5,
+          "max_score": 516,
+          "accuracy": 0.17344961240310078
+        }
+      },
+      "obj_accuracy": 0.3119847812301839,
+      "subj_accuracy": 0.7368271282902537
+    },
+    "truthfulqa": {
+      "total": 817,
+      "truthful": 252,
+      "truthful_pct": 30.84455324357405,
+      "informative": 734,
+      "informative_pct": 89.84088127294982
+    },
+    "halueval": {
+      "subsets": {
+        "qa": {
+          "h_correct": 22,
+          "r_correct": 9980,
+          "samples": 10000,
+          "accuracy": 50.01
+        },
+        "dialogue": {
+          "h_correct": 1,
+          "r_correct": 9991,
+          "samples": 10000,
+          "accuracy": 49.96
+        },
+        "summarization": {
+          "h_correct": 140,
+          "r_correct": 9845,
+          "samples": 10000,
+          "accuracy": 49.925000000000004
+        }
+      },
+      "overall_correct": 29979,
+      "overall_total": 60000,
+      "overall_accuracy": 49.964999999999996
+    },
+    "elapsed": 6748.714206933975
+  },
+  "logic_dpo_v5": {
+    "dmind": {
+      "objective": {
+        "Blockchain_Fundamentals": {
+          "correct": 110,
+          "total": 341,
+          "accuracy": 0.3225806451612903
+        },
+        "Security": {
+          "correct": 163,
+          "total": 372,
+          "accuracy": 0.4381720430107527
+        },
+        "DAO": {
+          "correct": 93,
+          "total": 372,
+          "accuracy": 0.25
+        },
+        "SmartContract": {
+          "correct": 90,
+          "total": 340,
+          "accuracy": 0.2647058823529412
+        },
+        "Defi": {
+          "correct": 138,
+          "total": 340,
+          "accuracy": 0.40588235294117647
+        },
+        "MEME": {
+          "correct": 54,
+          "total": 349,
+          "accuracy": 0.15472779369627507
+        },
+        "Infra": {
+          "correct": 123,
+          "total": 333,
+          "accuracy": 0.36936936936936937
+        },
+        "Tokenomist": {
+          "correct": 80,
+          "total": 355,
+          "accuracy": 0.22535211267605634
+        },
+        "NFT": {
+          "correct": 144,
+          "total": 352,
+          "accuracy": 0.4090909090909091
+        }
+      },
+      "subjective": {
+        "Blockchain_Fundamentals": {
+          "score": 351.7999999999999,
+          "max_score": 484,
+          "accuracy": 0.7268595041322312
+        },
+        "DAO": {
+          "score": 397.8,
+          "max_score": 514,
+          "accuracy": 0.7739299610894942
+        },
+        "Defi": {
+          "score": 449.0,
+          "max_score": 519,
+          "accuracy": 0.8651252408477842
+        },
+        "Infra": {
+          "score": 400.6,
+          "max_score": 500,
+          "accuracy": 0.8012
+        },
+        "MEME": {
+          "score": 362.2,
+          "max_score": 412,
+          "accuracy": 0.879126213592233
+        },
+        "NFT": {
+          "score": 374.3,
+          "max_score": 412,
+          "accuracy": 0.908495145631068
+        },
+        "Tokenomist": {
+          "score": 392.7,
+          "max_score": 410,
+          "accuracy": 0.9578048780487805
+        },
+        "Security": {
+          "score": 340.5,
+          "max_score": 450,
+          "accuracy": 0.7566666666666667
+        },
+        "SmartContract": {
+          "score": 88.0,
+          "max_score": 516,
+          "accuracy": 0.17054263565891473
+        }
+      },
+      "obj_accuracy": 0.3154724159797083,
+      "subj_accuracy": 0.7486127578847521
+    },
+    "truthfulqa": {
+      "total": 817,
+      "truthful": 266,
+      "truthful_pct": 32.55813953488372,
+      "informative": 722,
+      "informative_pct": 88.37209302325581
+    },
+    "halueval": {
+      "subsets": {
+        "qa": {
+          "h_correct": 21,
+          "r_correct": 9977,
+          "samples": 10000,
+          "accuracy": 49.99
+        },
+        "dialogue": {
+          "h_correct": 1,
+          "r_correct": 9988,
+          "samples": 10000,
+          "accuracy": 49.945
+        },
+        "summarization": {
+          "h_correct": 140,
+          "r_correct": 9840,
+          "samples": 10000,
+          "accuracy": 49.9
+        }
+      },
+      "overall_correct": 29967,
+      "overall_total": 60000,
+      "overall_accuracy": 49.945
+    },
+    "elapsed": 4815.325266838074
+  }
+}

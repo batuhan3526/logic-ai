@@ -1,0 +1,19 @@
+stage: logic_dpo
+data_path: data/logic_dpo/train.jsonl
+eval_path: data/logic_dpo/eval.jsonl
+base_model_path: output/logic_sft/merged_model
+output_dir: output/logic_dpo
+lora:
+  rank: 8
+  alpha: 16
+  target_modules: [q_proj, k_proj, v_proj, o_proj]
+  dropout: 0.05
+training:
+  max_steps: 500
+  per_device_batch_size: 1
+  gradient_accumulation_steps: 4
+  learning_rate: 5e-7
+  max_seq_length: 2048
+  beta: 0.1
+  save_steps: 50
+  eval_steps: 50

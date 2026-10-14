@@ -1,0 +1,179 @@
+{
+  "neuron_indices": [
+    {
+      "layer": 1,
+      "neuron": 5002,
+      "weight": 9.199023759212961
+    },
+    {
+      "layer": 4,
+      "neuron": 1751,
+      "weight": 9.053309949933912
+    },
+    {
+      "layer": 4,
+      "neuron": 2289,
+      "weight": 5.429655397143237
+    },
+    {
+      "layer": 27,
+      "neuron": 2353,
+      "weight": 3.9293982814366184
+    },
+    {
+      "layer": 11,
+      "neuron": 5534,
+      "weight": 3.7559446482022665
+    },
+    {
+      "layer": 23,
+      "neuron": 2669,
+      "weight": 3.3472315583605727
+    },
+    {
+      "layer": 8,
+      "neuron": 3359,
+      "weight": 2.3070547685281024
+    },
+    {
+      "layer": 18,
+      "neuron": 3682,
+      "weight": 2.261557980184357
+    },
+    {
+      "layer": 16,
+      "neuron": 3640,
+      "weight": 2.2501658191268312
+    },
+    {
+      "layer": 1,
+      "neuron": 4730,
+      "weight": 2.016120933437863
+    },
+    {
+      "layer": 26,
+      "neuron": 2305,
+      "weight": 1.8199259321233123
+    },
+    {
+      "layer": 0,
+      "neuron": 5607,
+      "weight": 1.776302708195829
+    },
+    {
+      "layer": 4,
+      "neuron": 5309,
+      "weight": 1.5159317256477218
+    },
+    {
+      "layer": 0,
+      "neuron": 7593,
+      "weight": 1.3972681334751926
+    },
+    {
+      "layer": 4,
+      "neuron": 2578,
+      "weight": 1.3181334384931773
+    },
+    {
+      "layer": 4,
+      "neuron": 6827,
+      "weight": 1.2175601878934237
+    },
+    {
+      "layer": 19,
+      "neuron": 3587,
+      "weight": 1.1974099461653418
+    },
+    {
+      "layer": 23,
+      "neuron": 6569,
+      "weight": 0.8584189197465533
+    },
+    {
+      "layer": 17,
+      "neuron": 5188,
+      "weight": 0.8477660947770932
+    },
+    {
+      "layer": 11,
+      "neuron": 1112,
+      "weight": 0.8264693122098061
+    },
+    {
+      "layer": 0,
+      "neuron": 8004,
+      "weight": 0.75014664127916
+    },
+    {
+      "layer": 19,
+      "neuron": 1831,
+      "weight": 0.7060882462650494
+    },
+    {
+      "layer": 3,
+      "neuron": 3967,
+      "weight": 0.5902398251196372
+    },
+    {
+      "layer": 5,
+      "neuron": 3387,
+      "weight": 0.573471040303217
+    },
+    {
+      "layer": 12,
+      "neuron": 4755,
+      "weight": 0.5028876746601696
+    },
+    {
+      "layer": 0,
+      "neuron": 7345,
+      "weight": 0.3201761280343172
+    },
+    {
+      "layer": 18,
+      "neuron": 5139,
+      "weight": 0.18307597417715427
+    },
+    {
+      "layer": 3,
+      "neuron": 4802,
+      "weight": 0.03931647546884568
+    },
+    {
+      "layer": 26,
+      "neuron": 2394,
+      "weight": 0.027906316913838047
+    }
+  ],
+  "alpha": 0.6667,
+  "layer_alphas": {
+    "early": 1.0,
+    "middle": 1.0,
+    "late": 0.0
+  },
+  "layer_ranges": {
+    "early": [
+      0,
+      9
+    ],
+    "middle": [
+      10,
+      19
+    ],
+    "late": [
+      20,
+      27
+    ]
+  },
+  "model_path": "output/logic_dpo/merged_model",
+  "num_neurons": 29,
+  "selection_meta": {
+    "C": 0.5,
+    "cv_accuracy": 0.950724111745059,
+    "best_accuracy": 0.753,
+    "best_hallucination_rate": 0.247,
+    "baseline_accuracy": 0.749,
+    "baseline_hallucination_rate": 0.251
+  }
+}

@@ -1,0 +1,20 @@
+stage: baseline_sft
+data_path: data/baseline_sft/train.jsonl
+eval_path: data/baseline_sft/eval.jsonl
+base_model_path: output/dapt/merged_model
+output_dir: output/baseline_sft
+lora:
+  rank: 32
+  alpha: 64
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+  dropout: 0.1
+training:
+  epochs: 1
+  per_device_batch_size: 1
+  gradient_accumulation_steps: 8
+  learning_rate: 3e-5
+  max_seq_length: 2048
+  weight_decay: 0.01
+  lr_scheduler_type: cosine
+  save_steps: 100
+  eval_steps: 200

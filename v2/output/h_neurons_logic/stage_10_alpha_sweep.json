@@ -1,0 +1,105 @@
+{
+  "coarse_results": [
+    {
+      "layer_alphas": {
+        "early": 1.0,
+        "middle": 1.0,
+        "late": 0.0
+      },
+      "accuracy": 0.753,
+      "hallucination_rate": 0.247
+    },
+    {
+      "layer_alphas": {
+        "early": 0.7,
+        "middle": 1.0,
+        "late": 0.3
+      },
+      "accuracy": 0.752,
+      "hallucination_rate": 0.248
+    },
+    {
+      "layer_alphas": {
+        "early": 0.7,
+        "middle": 1.0,
+        "late": 0.7
+      },
+      "accuracy": 0.752,
+      "hallucination_rate": 0.248
+    },
+    {
+      "layer_alphas": {
+        "early": 0.7,
+        "middle": 1.0,
+        "late": 1.0
+      },
+      "accuracy": 0.752,
+      "hallucination_rate": 0.248
+    },
+    {
+      "layer_alphas": {
+        "early": 0.7,
+        "middle": 0.3,
+        "late": 0.3
+      },
+      "accuracy": 0.75,
+      "hallucination_rate": 0.25
+    },
+    {
+      "layer_alphas": {
+        "early": 0.7,
+        "middle": 1.0,
+        "late": 0.0
+      },
+      "accuracy": 0.75,
+      "hallucination_rate": 0.25
+    },
+    {
+      "layer_alphas": {
+        "early": 0.7,
+        "middle": 0.0,
+        "late": 0.3
+      },
+      "accuracy": 0.749,
+      "hallucination_rate": 0.251
+    },
+    {
+      "layer_alphas": {
+        "early": 0.7,
+        "middle": 0.3,
+        "late": 0.0
+      },
+      "accuracy": 0.749,
+      "hallucination_rate": 0.251
+    },
+    {
+      "layer_alphas": {
+        "early": 0.7,
+        "middle": 0.3,
+        "late": 0.7
+      },
+      "accuracy": 0.749,
+      "hallucination_rate": 0.251
+    },
+    {
+      "layer_alphas": {
+        "early": 0.7,
+        "middle": 0.7,
+        "late": 1.0
+      },
+      "accuracy": 0.749,
+      "hallucination_rate": 0.251
+    }
+  ],
+  "fine_combo_count": 27,
+  "best_layer_alphas": {
+    "early": 1.0,
+    "middle": 1.0,
+    "late": 0.0
+  },
+  "best_global_alpha": 0.6667,
+  "best_accuracy": 0.753,
+  "best_hallucination_rate": 0.247,
+  "baseline_accuracy": 0.749,
+  "baseline_hallucination_rate": 0.251
+}

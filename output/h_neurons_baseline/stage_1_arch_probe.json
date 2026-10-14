@@ -1,0 +1,6 @@
+{
+  "intermediate_size": 8192,
+  "num_hidden_layers": 28,
+  "hidden_size": 3072,
+  "total_neurons": 229376
+}

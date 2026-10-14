@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.04,
+  "hallucination_rate": 0.96,
+  "in_sweet_spot": false,
+  "n_correct": 8,
+  "sample_size": 200
+}

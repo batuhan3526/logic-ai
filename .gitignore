@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+
+# Model weights and large binaries
+*.pt
+*.safetensors
+*.bin
+*.gguf
+
+# Datasets are downloaded, not redistributed
+data/
+v2/data/
+
+# Training outputs other than H-Neuron artifacts
+output/*/
+!output/h_neurons_*/
+v2/output/*/
+!v2/output/h_neurons_*/
+
+# Logs and caches
+*.log
+__pycache__/
+*.pyc
